@@ -15,15 +15,15 @@ module.exports = {
       },
       financialModule: {
         allowNull: false,
-        type: DataTypes.INTEGER,
+        type: DataTypes.BOOLEAN,
       },
       adminModule: {
         allowNull: false,
-        type: DataTypes.INTEGER,
+        type: DataTypes.BOOLEAN,
       },
       socialModule: {
         allowNull: false,
-        type: DataTypes.INTEGER,
+        type: DataTypes.BOOLEAN,
       },
       createdAt: {
         allowNull: false,
